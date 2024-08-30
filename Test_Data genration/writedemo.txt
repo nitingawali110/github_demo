@@ -1,0 +1,5 @@
+The script you provided will work well for generating fake
+data and saving it to an Excel file.
+Just make sure that the specified
+path for saving the Excel file (E:\NitinPythonProject\Test_Data genration\testdata.xls)
+exists and is accessible.
