@@ -25,3 +25,24 @@ if(ele in mylist):
 else:
     print("element not found")
 
+
+
+
+from selenium import webdriver
+
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+driver = webdriver.Chrome()  # For Chrome
+driver = webdriver.Firefox()  # For Firefox
+driver = webdriver.Edge()  # For Edge
+
+#element = WebDriverWait(driver, 10).until(
+    #EC.visibility_of_element_located((By.ID, "element_id"))
+#)
+
+##Explanation:** Waits up to 10 seconds for the element with the specified ID to become visible.
+
+element=WebDriverWait(driver,10).until(EC.visibility_of_element_located(By.ID,
+                                                                        "element_id"))
