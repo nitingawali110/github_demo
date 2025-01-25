@@ -1,0 +1,15 @@
+{"bookingid":55,"booking":{"firstname":"Amit","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2013-02-23","checkout":"2014-10-23"},"additionalneeds":"Breakfast"}}
+{
+    "booking": {
+        "additionalneeds": "Breakfast",
+        "bookingdates": {
+            "checkin": "2013-02-23",
+            "checkout": "2014-10-23"
+        },
+        "depositpaid": true,
+        "firstname": "Amit",
+        "lastname": "Brown",
+        "totalprice": 111
+    },
+    "bookingid": 55
+}
