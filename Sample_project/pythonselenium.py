@@ -46,3 +46,4 @@ for handle in all_window_handles:
 # -navigate().forward();
 # -navigate().back();
 # -navigate().refresh();
+class
